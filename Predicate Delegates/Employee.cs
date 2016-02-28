@@ -1,4 +1,6 @@
-﻿namespace Predicate_Delegates
+﻿using System;
+
+namespace Predicate_Delegates
 {
     public class Employee
     {
@@ -6,6 +8,10 @@
         private string _lastName;
         private string _designation;
 
+        public Employee()
+        {
+            
+        }
         public Employee(string firstName, string lastName, string designation)
         {
             _firstName = firstName;
@@ -48,5 +54,6 @@
                 _designation = value;
             }
         }
+
     }
 }
